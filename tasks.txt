@@ -1,0 +1,32 @@
+
+BACK-END
+
+1 - criar arquivo index.js == CHECK
+2 - instalar o express e body parser == CHECK
+3 - iniciar sevidor == CHECK
+4 - criar duas rotas para receber o front-end. Uma do tipo Get para ler os dados e outra do tipo Post para salvar dados == CHECK
+5 - criar um "Banco de Dados", um array com objetos que contenha (id, título e descrição) == CHECK
+6 - Fazer a rota Get ler todos os dados do DB, convertendo o objeto para string e colocando como rota url '/all' == CHECK
+7 - Preparar a rota Post, definindo como rota url '/new', precisamos chamar bodyParser.Json() para converter o que receber em json == CHECK
+8 - Armazenar o titulo e descrição que recebemos da requisição == CHECK
+9 - Criar função que gera uma sequência de numeros e letras aleatorio Math.random().toString(36).substr(2, 9)... de 2 à 9 é porque os os dois primeiros são um numero e um ponto  == CHECK
+10 - Colocar função que gera id dentro de id no Post == CHECK
+11 - testa no insomnia mandando um Json com título e descrição == CHECK
+12 - Criar arquivo posts.js dentro de Model == CHECK
+13 - Levar todos os arquivos referentes ao post para o posts.js, assim organizando o projeto ... (Cola) Levar o DB, o gerador de id e ações relacionadas ao post == CHECK
+14 - Criar um metodo chamado getAll() para ler todos os posts == CHECK
+15 - Criar um metodo chamdo newPost() para adicionar um novo post no DB == CHECK
+16 - Exportas o posts.js == CHECK
+17 - Importar o posts.js no index.js == CHECK
+18 - Reajustar o index.js para conversar com posts.js == CHECK
+19 - Incluir a pagina estática do index.html usando express.static e path.join(_dir, pasta que o arquivo está) == CHECK
+20 - Para que não haja conflito as rotas devem ser transferidas para um arquivo api.js em routes == CHECK
+21 - No api.js importamos router e alteramos as app para router  == CHECK
+22 - exportamos o arquivo e importamos no index.js == CHECK
+23 - criamos uma rota na aplicação que aceita todos os metodos e com a rota url '/api' colocamos o callback como a constante de importação do api.js == CHECK
+
+
+FRONT-END
+
+1 - Criar o mural com bootstrap
+2 - Criar um script 
