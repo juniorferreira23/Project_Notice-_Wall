@@ -17,6 +17,13 @@
         <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
         <input class="w-25 my-1" type="submit" value="Send" onclick="newPost()"> 
     </div>
+    <div class="form-edit container w-50 my-5" id="form_edit">
+        <label for="title">Title (Edit)</label>
+        <input type="text" id="edit_title">
+        <label for="desc">Description (Edit)</label>
+        <textarea name="desc" id="edit_desc" cols="30" rows="10"></textarea>
+        <input class="w-25 my-1 bg-success" id="edit_post" type="submit" value="Send" onclick="editPost()"> 
+    </div>
     <div class="container">
         <div class="posts row row-cols-1 row-cols-md-3 g-4">
           

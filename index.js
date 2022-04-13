@@ -8,8 +8,6 @@ const PORT = 5000;
 app.use('/api', apiRouter)
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-
 app.listen(PORT, (err) => {
     
     if(err){
@@ -18,4 +16,3 @@ app.listen(PORT, (err) => {
         console.log(`Sevidor Rodando na porta ${PORT}`);
     };
 });
-

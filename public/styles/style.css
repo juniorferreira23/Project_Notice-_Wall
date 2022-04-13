@@ -1,3 +1,16 @@
 .card-header{
     background-color: rgb(88, 88, 88);
 }
+
+.form-edit{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+}
